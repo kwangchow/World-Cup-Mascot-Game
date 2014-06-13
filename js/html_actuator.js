@@ -172,7 +172,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.textContent = "Tweet";
 
-  var text = "" + this.score + " points 2048: World Cup Mascots! http://bit.ly/world-cup-game #brazil2014 #worldcup"
+  var text = "" + this.score + " points in 2048: World Cup Mascots! Woo! #brazil2014 #worldcup"
   tweet.setAttribute("data-text", text);
 
   return tweet;
